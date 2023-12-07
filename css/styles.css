@@ -22,6 +22,8 @@ html {
   box-sizing: inherit;
 }
 
+
+
 body {
   font-family: 'poppins', helvetica, sans-serif;
   font-size: 15px;
@@ -402,7 +404,7 @@ h6 {
 }
 h1 {
   font-family: 'Libre Baskerville', 'Playfair Display', Georgia, serif;
-  font-size: 3.75rem;
+  font-size: 2.50rem;
   line-height: 5.313rem;
 }
 h2 {
@@ -643,7 +645,7 @@ section {
   margin-bottom: 28px;
 }
 .color-overlay {
-  background: rgba(38, 39, 50, 0.85);
+  background-color: rgba(57, 57, 57, 0.5); /* Change the color and opacity as needed */
 }
 /* LOGO AND STICKY NAVIGATION */
 .sticky-navigation {
@@ -654,10 +656,10 @@ section {
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.25);
 }
 .sticky-navigation .navbar-brand {
-  margin-top: 9px;
+  margin-top: 1px;
 }
 .sticky-navigation .navbar-brand img {
-  max-height: 26px;
+  max-height: 60px;
 }
 .sticky-navigation .current a {
   color: #fc5f45 !important;
